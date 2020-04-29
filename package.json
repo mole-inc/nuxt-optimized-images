@@ -1,6 +1,6 @@
 {
   "name": "@mole-inc/nuxt-optimized-images",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Automatically optimizes images used in Nuxt.js projects (jpeg, png, svg, webp and gif).",
   "main": "lib/index.js",
   "files": [
@@ -59,9 +59,9 @@
     "upath": "^1.2.0",
     "@mole-inc/webp-loader": "^1.0.0"
   },
-	"publishConfig": {
-		"access": "public"
-	},
+  "publishConfig": {
+    "access": "public"
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"

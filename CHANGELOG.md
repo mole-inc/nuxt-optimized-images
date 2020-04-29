@@ -1,3 +1,18 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.0.0](https://github.com/mole-inc/nuxt-optimized-images/compare/v1.0.0...v2.0.0) (2020-04-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename package and changes
+
+### Features
+
+* rename package and changes ([c3c9074](https://github.com/mole-inc/nuxt-optimized-images/commit/c3c90741df255a80578c6997c64a2b46495a820c))
+
 # [1.0.0](https://github.com/aceforth/nuxt-optimized-images/compare/v0.4.0...v1.0.0) (2020-04-12)
 
 
@@ -118,4 +133,3 @@ That’s it, there are no functional changes compared to `@bazzite/nuxt-optimize
 ## 0.1.0 (2019-03-14)
 
 * first stable version
-
