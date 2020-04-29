@@ -106,11 +106,9 @@ yarn add --dev @mole-inc/imagemin-mozjpeg @mole-inc/imagemin-pngquant imagemin-g
 Code released under the [MIT License][license-page].
 
 
-![](https://ga-beacon.appspot.com/UA-65885578-17/aceforth/nuxt-optimized-images?pixel)
-
-[docs]:  https://mole-inc.github.io/nuxt-optimized-images/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-optimized-images
+[docs]:  https://mole-inc.github.io/nuxt-optimized-images/
 [docs-configuration]: https://mole-inc.github.io/nuxt-optimized-images/configuration/
-[docs-configuration-optimizeimagesindev]: https://mole-inc.github.io/nuxt-optimized-images/configuration/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-optimized-images#optimizeimagesindev
+[docs-configuration-optimizeimagesindev]: https://mole-inc.github.io/nuxt-optimized-images/configuration/#optimizeimagesindev
 [issues]: https://github.com/mole-inc/nuxt-optimized-images/issues
 [license-page]: https://github.com/mole-inc/nuxt-optimized-images/blob/master/LICENSE
 
