@@ -1,22 +1,17 @@
 ---
-title: "Licencia"
-description: "Licencia para Nuxt Optimized Images"
-permalink: /docs/nuxt-optimized-images/license/
+title: "License"
+description: "License of Nuxt Optimized Images"
+permalink: /license/
 created: "2019-03-01T13:35:06.636Z"
 published: "2019-03-01T13:35:06.636Z"
-modified: "2020-04-12T16:01:04Z"
 ---
 
-# Licencia
-
-::: warning Nota
-Esta página sólo está disponible en inglés.
-:::
+# License
 
 ```
 MIT License
 
-Copyright (c) 2020 Aceforth
+Copyright 2020-present MOLE inc. and its affiliates.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

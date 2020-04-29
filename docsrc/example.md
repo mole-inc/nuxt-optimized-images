@@ -1,15 +1,14 @@
 ---
-title: "Ejemplo"
-description: "Si los valores por defecto son lo suficientemente buenos para tu caso de uso, no tienes que especificarlos para tener un archivo `nuxt.config.js` más corto y limpio."
-permalink: /docs/nuxt-optimized-images/example/
+title: "Example"
+description: "If the default values are good enough for your use-case, you don't have to specify them to have a shorter and cleaner `nuxt.config.js` file."
+permalink: /example/
 created: "2019-03-01T13:35:06.636Z"
 published: "2019-03-01T13:35:06.636Z"
-modified: "2019-12-19T00:43:45.138Z"
 ---
 
-# Ejemplo
+# Example
 
-Las opciones especificadas aquí son los valores **por defecto**. Así que si son lo suficientemente buenos para tu caso de uso, no tienes que especificarlos para así tener un archivo `nuxt.config.js` más corto y limpio.
+The options specified here are the **default** values. So if they are good enough for your use-case, you don't have to specify them to have a shorter and cleaner `nuxt.config.js` file.
 
 ```javascript
 // nuxt.config.js
@@ -34,7 +33,7 @@ Las opciones especificadas aquí son los valores **por defecto**. Así que si so
       optimizationLevel: 3,
     },
     svgo: {
-      // habilitar/deshabilitar plugins svgo aquí
+      // enable/disable svgo plugins here
     },
     webp: {
       preset: 'default',
