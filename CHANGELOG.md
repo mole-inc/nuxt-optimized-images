@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/mole-inc/nuxt-optimized-images/compare/v2.0.0...v2.1.0) (2020-05-01)
+
+
+### Features
+
+* add jpegoptim plugin ([55d2b1b](https://github.com/mole-inc/nuxt-optimized-images/commit/55d2b1b0e1325e041e2447d549fc7da0a624dc6a))
+
+
+### Bug Fixes
+
+* fix detected loaders counts ([73a9c6f](https://github.com/mole-inc/nuxt-optimized-images/commit/73a9c6f7ff8733a1d1c648de98644209e1eb6f25))
+* fix log message ([caa431c](https://github.com/mole-inc/nuxt-optimized-images/commit/caa431c7de13f40c4d980872e4e92b882a5148a7))
+
 ## [2.0.0](https://github.com/mole-inc/nuxt-optimized-images/compare/v1.0.0...v2.0.0) (2020-04-29)
 
 
