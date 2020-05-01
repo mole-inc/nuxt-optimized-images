@@ -63,17 +63,18 @@ You have to install the optimization packages you need in your project in additi
 
 The following optimization packages are available and supported:
 
-| Optimization Package | Description                                                                                                                                                                                             | Project Link              |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| `@mole-inc/imagemin-mozjpeg`   | Optimizes JPEG images                                                                                                                                                                                   | [Link][imagemin-mozjpeg]  |
-| `@mole-inc/imagemin-pngquant`  | Optimizes PNG images                                                                                                                                                                                    | [Link][imagemin-pngquant] |
-| `@mole-inc/imagemin-optipng`   | Alternative for optimizing PNG images                                                                                                                                                                   | [Link][imagemin-optipng]  |
-| `imagemin-gifsicle`  | Optimizes GIF images                                                                                                                                                                                    | [Link][imagemin-gifsicle] |
-| `imagemin-svgo`      | Optimizes SVG images and icons                                                                                                                                                                          | [Link][imagemin-svgo]     |
-| `@mole-inc/webp-loader`        | Optimizes WebP images and can convert JPEG/PNG images to WebP on the fly ([WebP resource query](./docs/usage.md#webp))                                                                                       | [Link][webp-loader]       |
-| `@mole-inc/lqip-loader`        | Generates low quality image placeholders of an image ([lqip resource query](./docs/usage.md#lqip))                                                                       | [Link][lqip-loader]       |
-| `responsive-loader`  | Can resize images on the fly and create multiple versions of it for a `srcSet`. **Important**: You need to additionally install either `jimp` (node implementation, slower) or `sharp` (binary, faster) | [Link][responsive-loader] |
-| `sqip-loader`  | Loads images and exports tiny SQIP previews as `image/svg+xml` URL-encoded data | [Link][sqip-loader] |
+| Optimization Package           | Description                                                                                                             | Project Link               |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| `@mole-inc/imagemin-mozjpeg`   | Optimizes JPEG images                                                                                                   | [Link][imagemin-mozjpeg]   |
+| `@mole-inc/imagemin-jpegoptim` | Optimizes JPEG images                                                                                                   | [Link][imagemin-jpegoptim] |
+| `@mole-inc/imagemin-pngquant`  | Optimizes PNG images                                                                                                    | [Link][imagemin-pngquant]  |
+| `@mole-inc/imagemin-optipng`   | Alternative for optimizing PNG images                                                                                   | [Link][imagemin-optipng]   |
+| `imagemin-gifsicle`            | Optimizes GIF images                                                                                                    | [Link][imagemin-gifsicle]  |
+| `imagemin-svgo`                | Optimizes SVG images and icons                                                                                          | [Link][imagemin-svgo]      |
+| `@mole-inc/webp-loader`        | Optimizes WebP images and can convert JPEG/PNG images to WebP on the fly ([WebP resource query](./docs/usage.md#webp))  | [Link][webp-loader]        |
+| `@mole-inc/lqip-loader`        | Generates low quality image placeholders of an image ([lqip resource query](./docs/usage.md#lqip))                      | [Link][lqip-loader]        |
+| `responsive-loader`            | Can resize images on the fly and create multiple versions of it for a `srcSet`. **Important**: You need to additionally install either `jimp` (node implementation, slower) or `sharp` (binary, faster) | [Link][responsive-loader] |
+| `sqip-loader`                  | Loads images and exports tiny SQIP previews as `image/svg+xml` URL-encoded data                                         | [Link][sqip-loader] |
 
 Example: If you have JPG, PNG, and SVG images in your project, you would then need to run
 
@@ -87,11 +88,11 @@ yarn add --dev @mole-inc/imagemin-mozjpeg @mole-inc/imagemin-pngquant imagemin-s
 
 To install **all** optional packages, run:
 ```sh
-npm install --save-dev @mole-inc/imagemin-mozjpeg @mole-inc/imagemin-pngquant imagemin-gifsicle imagemin-svgo @mole-inc/webp-loader @mole-inc/lqip-loader responsive-loader sqip-loader sharp
+npm install --save-dev @mole-inc/imagemin-mozjpeg @mole-inc/imagemin-jpegoptim @mole-inc/imagemin-pngquant imagemin-gifsicle imagemin-svgo @mole-inc/webp-loader @mole-inc/lqip-loader responsive-loader sqip-loader sharp
 
 # or
 
-yarn add --dev @mole-inc/imagemin-mozjpeg @mole-inc/imagemin-pngquant imagemin-gifsicle imagemin-svgo @mole-inc/webp-loader @mole-inc/lqip-loader responsive-loader sqip-loader sharp
+yarn add --dev @mole-inc/imagemin-mozjpeg @mole-inc/imagemin-jpegoptim @mole-inc/imagemin-pngquant imagemin-gifsicle imagemin-svgo @mole-inc/webp-loader @mole-inc/lqip-loader responsive-loader sqip-loader sharp
 ```
 
 :warning: Please note that by default, images are only optimized for **production builds, not development builds**. However, this can get changed with the [`optimizeImagesInDev` config][docs-configuration-optimizeimagesindev].
@@ -113,6 +114,7 @@ Code released under the [MIT License][license-page].
 [license-page]: https://github.com/mole-inc/nuxt-optimized-images/blob/master/LICENSE
 
 [imagemin-mozjpeg]: https://www.npmjs.com/package/@mole-inc/imagemin-mozjpeg
+[imagemin-jpegoptim]: https://www.npmjs.com/package/@mole-inc/imagemin-jpegoptim
 [imagemin-pngquant]: https://www.npmjs.com/package/@mole-inc/imagemin-pngquant
 [imagemin-optipng]: https://www.npmjs.com/package/@mole-inc/imagemin-optipng
 [imagemin-gifsicle]: https://www.npmjs.com/package/imagemin-gifsicle
