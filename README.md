@@ -4,6 +4,8 @@ Automatically optimizes images used in Nuxt.js projects (JPEG, PNG, SVG, WebP an
 
 > This module is inspired by the work of [Cyril Wanner](https://github.com/cyrilwanner) in [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images).
 
+[![codecov](https://codecov.io/gh/mole-inc/nuxt-optimized-images/branch/develop/graph/badge.svg)](https://codecov.io/gh/mole-inc/nuxt-optimized-images)
+
 ## Features
 
 Image sizes can often get reduced up to 60%, but this is not the only thing `@mole-inc/nuxt-optimized-images` does:
