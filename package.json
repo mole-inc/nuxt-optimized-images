@@ -11,8 +11,7 @@
   },
   "scripts": {
     "test": "yarn lint && jest",
-    "lint": "eslint --ext .js lib test",
-    "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+    "lint": "eslint --ext .js lib test"
   },
   "repository": {
     "type": "git",
@@ -32,7 +31,11 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "conventional-changelog-cli": "^2.0.31",
+    "@mole-inc/imagemin-jpegoptim": "^7.0.0",
+    "@mole-inc/imagemin-mozjpeg": "^9.0.0",
+    "@mole-inc/imagemin-pngquant": "^9.0.0",
+    "@mole-inc/lqip-loader": "^4.0.0",
+    "@mole-inc/webp-loader": "^1.0.0",
     "eslint": "^6.8.0",
     "eslint-config-dev": "^2.0.0",
     "eslint-config-standard": "^14.1.1",
@@ -44,20 +47,17 @@
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.2.5",
     "imagemin-gifsicle": "7.0.0",
-    "@mole-inc/imagemin-mozjpeg": "^9.0.0",
-    "@mole-inc/imagemin-pngquant": "^9.0.0",
     "imagemin-svgo": "7.1.0",
     "jest": "^25.3.0",
     "jimp": "^0.10.2",
     "loader-utils": "^2.0.0",
     "lodash.clonedeepwith": "^4.5.0",
     "lodash.isstring": "^4.0.1",
-    "@mole-inc/lqip-loader": "^4.0.0",
     "responsive-loader": "^1.2.0",
     "sharp": "^0.25.2",
     "sqip-loader": "^1.0.0",
-    "upath": "^1.2.0",
-    "@mole-inc/webp-loader": "^1.0.0"
+    "standard-version": "^7.1.0",
+    "upath": "^1.2.0"
   },
   "publishConfig": {
     "access": "public"
@@ -70,6 +70,9 @@
   "jest": {
     "testEnvironment": "node",
     "coverageDirectory": "./coverage/",
-    "collectCoverage": true
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ]
   }
 }

@@ -76,6 +76,17 @@ Requires the optional optimization package [`@mole-inc/imagemin-mozjpeg`][imagem
 
 [mozjpeg][imagemin-mozjpeg] is used for optimizing JPEG images. You can specify the options for it here. **The default options of `mozjpeg` are used if you omit this option.**
 
+## jpegoptim
+
+::: warning
+Requires the optional optimization package [`@mole-inc/imagemin-jpegoptim`][imagemin-jpegoptim]
+:::
+
+- Type: `object`
+- Default: `{}`
+
+[jpegoptim][imagemin-jpegoptim] is used for optimizing JPEG images. You can specify the options for it here. **The default options of `jpegoptim` are used if you omit this option.**
+
 ## pngquant
 
 ::: warning
@@ -193,6 +204,7 @@ If you don't have any optimization package installed and this option is set to `
 
 
 [imagemin-mozjpeg]: https://www.npmjs.com/package/@mole-inc/imagemin-mozjpeg
+[imagemin-jpegoptim]: https://www.npmjs.com/package/@mole-inc/imagemin-jpegoptim
 [imagemin-pngquant]: https://www.npmjs.com/package/@mole-inc/imagemin-pngquant
 [imagemin-optipng]: https://www.npmjs.com/package/@mole-inc/imagemin-optipng
 [imagemin-gifsicle]: https://www.npmjs.com/package/imagemin-gifsicle

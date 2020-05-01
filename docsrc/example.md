@@ -24,6 +24,9 @@ The options specified here are the **default** values. So if they are good enoug
     mozjpeg: {
       quality: 80,
     },
+    jpegoptim: {
+      max: 80,
+    },
     optipng: {
       optimizationLevel: 3,
     },
