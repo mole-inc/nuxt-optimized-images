@@ -22,7 +22,7 @@
     "url": "https://github.com/mole-inc/nuxt-optimized-images/issues"
   },
   "dependencies": {
-    "consola": "^2.11.3",
+    "consola": "^2.15.0",
     "imagemin": "^7.0.1",
     "img-loader": "^3.0.1",
     "raw-loader": "^4.0.1",
