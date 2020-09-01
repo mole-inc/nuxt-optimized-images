@@ -20,6 +20,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "[path][name].[ext]",
@@ -55,6 +56,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "[path][name].[ext]",
@@ -79,6 +81,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -101,6 +104,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -135,6 +139,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -147,6 +152,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -185,6 +191,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "img/[contenthash:7].[ext]",
@@ -231,6 +238,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "img/[contenthash:7].[ext]",
@@ -277,6 +285,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "img/[contenthash:7].[ext]",
@@ -299,6 +308,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "img/[contenthash:7].[ext]",
@@ -333,6 +343,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "img/[contenthash:7].[ext]",
@@ -357,6 +368,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "mimetype": "image/webp",
@@ -374,6 +386,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "img/[contenthash:7].[ext]",
@@ -417,6 +430,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "img/[contenthash:7].[ext]",
@@ -456,6 +470,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "img/[contenthash:7].[ext]",
@@ -488,6 +503,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "img/[contenthash:7].[ext]",
@@ -510,6 +526,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "img/[contenthash:7].[ext]",
@@ -544,6 +561,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "img/[contenthash:7].[ext]",
@@ -560,6 +578,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "img/[contenthash:7].[ext]",
@@ -596,6 +615,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "[path][name].[ext]",
@@ -631,6 +651,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "[path][name].[ext]",
@@ -655,6 +676,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -677,6 +699,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -711,6 +734,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -724,6 +748,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "mimetype": "image/webp",
@@ -741,6 +766,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -779,6 +805,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "[path][name].[ext]",
@@ -814,6 +841,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": undefined,
             "name": "[path][name].[ext]",
@@ -838,6 +866,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -860,6 +889,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -894,6 +924,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
@@ -906,6 +937,7 @@ Object {
         Object {
           "loader": "url-loader",
           "options": Object {
+            "esModule": false,
             "fallback": "file-loader",
             "limit": 1000,
             "name": "[path][name].[ext]",
