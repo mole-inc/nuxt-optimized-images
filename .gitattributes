@@ -1,4 +1,5 @@
 docs/ linguist-documentation
+docsrc/ linguist-documentation
 
 *.txt   text eol=lf
 *.js    text eol=lf
