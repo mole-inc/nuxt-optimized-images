@@ -2,8 +2,6 @@ const path = require('path')
 const pkg = require('./package')
 
 module.exports = {
-  mode: 'universal',
-
   /*
   ** Headers of the page
   */
@@ -40,8 +38,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
+    'nuxt-buefy'
   ],
 
   buildModules: [

@@ -33,8 +33,9 @@
     "@commitlint/config-conventional": "^10.0.0",
     "@mole-inc/imagemin-jpegoptim": "^7.0.0",
     "@mole-inc/imagemin-mozjpeg": "^9.0.0",
-    "@mole-inc/imagemin-pngquant": "^9.0.0",
+    "@mole-inc/imagemin-pngquant": "^11.0.0",
     "@mole-inc/lqip-loader": "^4.0.0",
+    "@mole-inc/sqip-loader": "^1.0.0",
     "@mole-inc/webp-loader": "^1.0.0",
     "eslint": "^7.8.0",
     "eslint-config-dev": "^2.0.0",
@@ -55,7 +56,6 @@
     "lodash.isstring": "^4.0.1",
     "responsive-loader": "^2.0.2",
     "sharp": "^0.25.2",
-    "sqip-loader": "^1.0.0",
     "standard-version": "^9.0.0",
     "upath": "^1.2.0"
   },

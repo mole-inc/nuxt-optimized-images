@@ -131,7 +131,7 @@ Object {
           "loader": "../lib/loaders/sqip-loader/export-loader.js",
         },
         Object {
-          "loader": "sqip-loader",
+          "loader": "@mole-inc/sqip-loader",
           "options": Object {
             "name": "[path][name].[ext]",
           },
@@ -335,7 +335,7 @@ Object {
           "loader": "../lib/loaders/sqip-loader/export-loader.js",
         },
         Object {
-          "loader": "sqip-loader",
+          "loader": "@mole-inc/sqip-loader",
           "options": Object {
             "name": "img/[contenthash:7].[ext]",
           },
@@ -553,7 +553,7 @@ Object {
           "loader": "../lib/loaders/sqip-loader/export-loader.js",
         },
         Object {
-          "loader": "sqip-loader",
+          "loader": "@mole-inc/sqip-loader",
           "options": Object {
             "name": "img/[contenthash:7].[ext]",
           },
@@ -726,7 +726,7 @@ Object {
           "loader": "../lib/loaders/sqip-loader/export-loader.js",
         },
         Object {
-          "loader": "sqip-loader",
+          "loader": "@mole-inc/sqip-loader",
           "options": Object {
             "name": "[path][name].[ext]",
           },
@@ -916,7 +916,7 @@ Object {
           "loader": "../lib/loaders/sqip-loader/export-loader.js",
         },
         Object {
-          "loader": "sqip-loader",
+          "loader": "@mole-inc/sqip-loader",
           "options": Object {
             "name": "[path][name].[ext]",
           },

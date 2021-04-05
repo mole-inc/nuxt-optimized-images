@@ -87,7 +87,7 @@ The following optimization packages are available and supported:
 | `@mole-inc/webp-loader`        | Optimizes WebP images and can convert JPEG/PNG images to WebP on the fly ([WebP resource query](./docs/usage.md#webp))  | [Link][webp-loader]        |
 | `@mole-inc/lqip-loader`        | Generates low quality image placeholders of an image ([lqip resource query](./docs/usage.md#lqip))                      | [Link][lqip-loader]        |
 | `responsive-loader`            | Can resize images on the fly and create multiple versions of it for a `srcSet`. **Important**: You need to additionally install either `jimp` (node implementation, slower) or `sharp` (binary, faster) | [Link][responsive-loader] |
-| `sqip-loader`                  | Loads images and exports tiny SQIP previews as `image/svg+xml` URL-encoded data                                         | [Link][sqip-loader] |
+| `@mole-inc/sqip-loader`        | Loads images and exports tiny SQIP previews as `image/svg+xml` URL-encoded data                                         | [Link][sqip-loader] |
 
 Example: If you have JPG, PNG, and SVG images in your project, you would then need to run
 
@@ -128,4 +128,4 @@ Depending on your build/deployment setup, it is also possible to install these a
 [webp-loader]: https://www.npmjs.com/package/webp-loader
 [lqip-loader]: https://www.npmjs.com/package/lqip-loader
 [responsive-loader]: https://www.npmjs.com/package/responsive-loader
-[sqip-loader]: https://github.com/EmilTholin/sqip-loader
+[sqip-loader]: https://github.com/EmilTholin/@mole-inc/sqip-loader

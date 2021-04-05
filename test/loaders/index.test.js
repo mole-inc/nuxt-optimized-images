@@ -26,7 +26,7 @@ describe('@mole-inc/nuxt-optimized-images/loaders', () => {
       webp: '@mole-inc/webp-loader',
       png: '@mole-inc/imagemin-pngquant',
       lqip: '@mole-inc/lqip-loader',
-      sqip: 'sqip-loader',
+      sqip: '@mole-inc/sqip-loader',
       responsive: path.resolve(__dirname, '../../node_modules/responsive-loader'),
       responsiveAdapter: 'sharp'
     })
