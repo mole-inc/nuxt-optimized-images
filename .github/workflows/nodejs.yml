@@ -2,6 +2,9 @@ name: Node CI
 
 on: [push]
 
+env:
+  CI: true
+
 jobs:
   build:
 
@@ -9,22 +12,18 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: ['10', '12', '14']
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
     - name: yarn install, and test
       run: yarn && yarn test
-      env:
-        CI: true
     - name: build example
       run: cd example && yarn && yarn generate
-      env:
-        CI: true
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:

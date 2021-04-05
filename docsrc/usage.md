@@ -270,4 +270,4 @@ You can also set global configs in the [`responsive`](#responsive) property (in 
 [responsive-loader]: https://www.npmjs.com/package/responsive-loader
 [jimp]: https://www.npmjs.com/package/jimp
 [sharp]: https://www.npmjs.com/package/sharp
-[sqip-loader]: https://github.com/EmilTholin/sqip-loader
+[sqip-loader]: https://www.npmjs.com/package/@mole-inc/sqip-loader
