@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/mole-inc/nuxt-optimized-images/compare/v2.2.0...v2.3.0) (2021-04-05)
+
+
+### Features
+
+* use @mole-inc/sqip-loader ([f246a47](https://github.com/mole-inc/nuxt-optimized-images/commit/f246a478282010431499165e413d4641e929d450))
+
 ## [2.2.0](https://github.com/mole-inc/nuxt-optimized-images/compare/v1.3.0...v2.2.0) (2020-09-01)
 
 
